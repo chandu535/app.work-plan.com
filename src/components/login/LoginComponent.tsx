@@ -1,8 +1,10 @@
+"use client"
+
 import Image from 'next/image'
 import "./login.css"
 import { Button, Typography } from '@mui/material'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 export default function LoginComponent() {
     const router = useRouter()
     return (
