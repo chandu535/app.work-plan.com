@@ -1,4 +1,4 @@
-const Tasks = () => {
+const TasksComponent = () => {
     return (
         <div>
             <h1>Tasks</h1>
@@ -6,4 +6,4 @@ const Tasks = () => {
     );
 }
 
-export default Tasks;
+export default TasksComponent;
