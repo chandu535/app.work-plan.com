@@ -1,10 +1,6 @@
-import Image from 'next/image'
 import "./login.css"
-import { Button, Typography } from '@mui/material'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { Button, Link, Typography } from '@mui/material';
 export default function LoginComponent() {
-    const router = useRouter()
     return (
         <div className="container">
             <div className="blur-bg" />
