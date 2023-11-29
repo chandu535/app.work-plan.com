@@ -1,6 +1,6 @@
 import { Button, Card, TextField } from "@mui/material";
 import { useState } from "react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 
 const AddNewProject = () => {
