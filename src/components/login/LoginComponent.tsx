@@ -6,7 +6,6 @@ import { Button, Typography } from '@mui/material'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 export default function LoginComponent() {
-    const router = useRouter()
     return (
         <div className="container">
             <div className="blur-bg" />
